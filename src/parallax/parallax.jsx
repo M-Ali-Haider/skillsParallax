@@ -65,7 +65,7 @@ const Column = ({images, y=0})=>{
           const {src,color}=image;
           return <div key={index} className={styles.imageContainer} style={{backgroundColor:color}}>
             <Image
-              src={`/skills/${src}`}
+              src={`/skillsParallax/skills/${src}`}
               width={1}
               height={1}
               alt='parallax image'  
