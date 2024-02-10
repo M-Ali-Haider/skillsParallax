@@ -5,7 +5,7 @@ export default function Home() {
     <>
     <main>
       <div className={styles.space}></div>
-        <Parallax/>
+      <Parallax/>
       <div className={styles.space}></div>
     </main>
     </>
