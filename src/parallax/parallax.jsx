@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useTransform, useScroll, motion } from 'framer-motion'
 import { useEffect, useRef } from 'react'
 import Lenis from '@studio-freight/lenis'
-import useDimension from './useDimension'
+import useDimension from '../useDimension'
 import { skills } from './skills'
 
 export default function Parallax() {
